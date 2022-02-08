@@ -7,7 +7,7 @@ public class ForCycle {
 
         for (int i = 1; i <= num; i++) {
             System.out.println(i);
-        }
+         }
 
         /* String text = " this is a long string";
 
