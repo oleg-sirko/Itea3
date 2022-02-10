@@ -1,10 +1,10 @@
 package task3.execute;
-
+import task3.classes.Student;
 public class RunTask {
-    static String name = ""; //provide your name as value to variable
-
+    static String name = "Andriy";
     public static void main(String[] args) {
-        System.out.println(/* print result of runTask() method from Student class providing name as input
-        Expected output in Console im my case: "Oleg Sirko has scored 3 points for Task3"*/);
+      Student source = new Student();
+        String value = source.runTask(name);
+        System.out.println(value);
     }
 }
