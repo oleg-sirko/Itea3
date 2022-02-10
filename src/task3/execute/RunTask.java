@@ -1,9 +1,17 @@
 package task3.execute;
 
+import task3.classes.Student;
+
 public class RunTask {
-    static String name = "Oleg Sirko";
+
+        public String runMethod() {
+            String name = "Petr";
+            return name;
+        }
 
     public static void main(String[] args) {
-        System.out.println(/* print result of runTask() method providing name as input */);
+        Student person1 = new Student();
+        String messageOut = person1.runTask("Petr");
+        System.out.println(messageOut);
     }
 }
