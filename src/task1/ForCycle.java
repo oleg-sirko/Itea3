@@ -5,7 +5,7 @@ public class ForCycle {
 
         int num = 3;
 
-        for (int i = 1; i <= num; i++) {
+        for (int i = 2; i <= num; i++) {
             System.out.println(i);
         }
 
