@@ -6,7 +6,4 @@ public class Student {
         String result = name + " has scored 3 points for Task3";
         return result;
     }
-
-
-
 }
