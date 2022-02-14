@@ -11,11 +11,11 @@ public class Student {
         this.name = name;
     }
 
-    private void addScore (){
+    private void addScore() {
         score = 2;
     }
 
-    public void resolve (){
+    public void resolve() {
         addScore();
     }
 
