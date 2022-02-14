@@ -1,8 +1,8 @@
 package task4.homework;
 
 public class Student {
-    private String name = "John Doe";
-    private int score = 0;
+    private String name = "Anna Vysotskaya";
+    private int score = 2;
 
     public Student() {
     }
