@@ -7,6 +7,7 @@ public class Task4 {
         Student student = new Student(name);
         student.resolve();
         student.printScore();
+        // Task completed
     }
 
 }
