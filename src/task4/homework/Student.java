@@ -8,14 +8,17 @@ public class Student {
     }
 
     public Student(String name) {
+
         this.name = name;
     }
 
     private void addScore (){
+
         score = 2;
     }
 
     public void resolve (){
+
         addScore();
     }
 
